@@ -31,3 +31,7 @@ Once you've imported Quest System Pro into your project a new menu item will sho
 
 3. Start creating quests
 	All done, you can now create quests and add them to your project. Remember that every scene that uses quests or dialogoues needs to have the managers in that scene (you can use DontDestroyOnLoad).
+
+4. Plugin module activation
+	If you want to activate external plugin, please use below define macro to your player setting.
+	PLAYMAKER;SALSA;EASY_SAVE_2;RT_VOICE;INVENTORY_PRO;LOVE_HATE;LIPSYNC;PLAYMAKER_1_8;PLAYMAKER_1_8_3;PLAYMAKER_1_8_OR_NEWER;NETWORK_SUPPORT

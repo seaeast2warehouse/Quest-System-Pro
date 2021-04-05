@@ -1,4 +1,6 @@
-﻿using Devdog.General;
+﻿#if NETWORK_SUPPORT
+
+using Devdog.General;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -128,3 +130,5 @@ namespace Devdog.QuestSystemPro
 #endif
     }
 }
+
+#endif
